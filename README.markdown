@@ -12,3 +12,4 @@ You also need to add nav.html to default asides in *_config.yml*
 ```
 default_asides: [asides/nav.html, asides/recent_posts.html ....
 ```
+![Oct2 screenshot](https://raw.github.com/bijumon/oct2/master/oct2.png)
