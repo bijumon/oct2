@@ -30,10 +30,10 @@
   color: $text-color-light;
   .entry-content { display: none; }
   time {
-    font-size: .9em;
+    font-size: .8em;
     line-height: 1.2em;
     .month, .day { display: inline-block; }
-    .month { text-transform: uppercase; }
+    .month { text-transform: uppercase;}
   }
   p { margin-bottom: 1em; }
   &, .entry-content { a { @include link-colors(inherit, $link-color-hover); }}
@@ -51,7 +51,7 @@
     time {
       position: absolute;
       text-align: right;
-      left: 0em;
+      left: -0.1em;
       top: 1.8em;
     }
     .year { display: none; }
