@@ -12,7 +12,7 @@ $ cp head.mathjax.html head.html
 *Installing*
 
 ```
-$ git clone https://github.com/bijumon/oct2.git .themes/
+$ git clone https://github.com/bijumon/oct2.git .themes/oct2
 $ rake install["oct2"] 
 ```
 
