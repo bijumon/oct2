@@ -5,8 +5,8 @@
 <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
 {% comment %}
     {{ post.date | date: " <span class='month'>%b</span> <span class='day'>%-d</span> <span class='year'>%Y </span>"}}
+    {{ post.date | timeago }}</br>
 {% endcomment %}
-{{ post.date | timeago }}</br>
 </time>
 
 {% if category != '0' %}
