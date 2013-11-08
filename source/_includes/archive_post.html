@@ -1,16 +1,11 @@
 {% capture category %}{{ post.categories | size }}{% endcapture %}
 <h1>
     <span><img style="border:0px;" src="/images/langs/24/{{post.lang}}.png"></span>
-<a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
-<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
+    <a href="{{ root_url }}{{ post.url }}">{{post.title}}</a>
+</h1>
 
-</time>
+<time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{post.date | date: "<span class='month'><!-- %b --></span> <span class='day'><!-- %d --></span> <span class='year'>%Y</span>"}}<b class='month'>{{ post.date | timeago }}</b></time>
 
-<!-- {% comment %}
-    {{ post.date | date: " <span class='month'>%b</span> <span class='day'>%-d</span> <span class='year'>%Y </span>"}}
-    {{ post.date | timeago }}</br>
-{% endcomment %}
- -->
 {% if category != '0' %}
 <footer>
   <span class="categories">posted in {{ post.categories | category_links }}</span>
