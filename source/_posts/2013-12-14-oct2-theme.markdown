@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Oct2 Theme"
+date: 2013-12-14 15:00
+comments: true
+categories:
+---
+[Oct2](https://github.com/bijumon/oct2) is an [Octopress](http://octopress.org/) ‘classic’ theme mod.
+
+Install [Octopress](http://octopress.org/)
+
+``` sh
+$ git clone https://github.com/imathis/octopress.git
+$ bundle install --path=vendor/bundle #path is optional
+```
+
+Install Oct2 and generate the website
+
+``` sh
+$ git clone https://github.com/bijumon/oct2.git .themes/
+$ bundle exec rake install[oct2]
+$ bundle exec rake generate
+```
+
+**About page**
+
+Oct2 includes an empty 'about' page at `source/about/index.markdown`.
+
+**Enable Mathjax**
+
+Rendering Latex equations requires using `kramdown` instead of `rdiscount` as the markdown processor.
+
+**_config.yml**
+
+```
+...
+markdown: kramdown
+mathjax: true
+```
+
+_Note_
+
+* `maruku` supports mathjax but is not tested
+* `rdiscount` and `redcarpet` has problems with mathjax rendering
