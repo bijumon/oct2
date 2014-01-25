@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Math | Oct2]]></title>
+  <link href="http://bijumon.github.io/oct2/blog/categories/math/atom.xml" rel="self"/>
+  <link href="http://bijumon.github.io/oct2/"/>
+  <updated>2014-01-25T12:02:20+05:30</updated>
+  <id>http://bijumon.github.io/oct2/</id>
+  <author>
+    <name><![CDATA[bijumon]]></name>
+    <email><![CDATA[biju.punalor@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Equations]]></title>
+    <link href="http://bijumon.github.io/oct2/blog/2012/08/31/equations-in-latex/"/>
+    <updated>2012-08-31T14:34:00+05:30</updated>
+    <id>http://bijumon.github.io/oct2/blog/2012/08/31/equations-in-latex</id>
+    <content type="html"><![CDATA[<p>The following equations are represented in the HTML source code as LaTeX expressions.</p>
+
+<p>The Lorenz Equations</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+\begin{aligned}
+\dot{x} & = \sigma(y-x) \\
+\dot{y} & = \rho x - y - xz \\
+\dot{z} & = -\beta z + xy
+\end{aligned} %]]&gt;</script>
+
+<p>The Cauchy-Schwarz Inequality</p>
+
+<script type="math/tex; mode=display">\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)</script>
+
+<p>A Cross Product Formula</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0
+\end{vmatrix} %]]&gt;</script>
+
+<p>The probability of getting (k) heads when flipping (n) coins is</p>
+
+<script type="math/tex; mode=display">P(E) = \left( \binom{n}{k} \right) p^k (1-p)^{ n-k}</script>
+
+<p>An Identity of Ramanujan</p>
+
+<script type="math/tex; mode=display">\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } }</script>
+
+<p>Maxwell’s Equations</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+\begin{aligned}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\   \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} & = 0 \end{aligned} %]]&gt;</script>
+
+<p>Finally, while display equations look good for a page of samples, the ability to mix math and text in a paragraph is also important. This expression <script type="math/tex">\sqrt{3x-1}+(1+x)^2</script> is an example of an inline equation.  As you see, MathJax equations can be used this way as well, without unduly disturbing the spacing between lines.</p>
+]]></content>
+  </entry>
+  
+</feed>
