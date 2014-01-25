@@ -4,7 +4,7 @@
   <title><![CDATA[Oct2]]></title>
   <link href="http://bijumon.github.io/oct2/atom.xml" rel="self"/>
   <link href="http://bijumon.github.io/oct2/"/>
-  <updated>2014-01-25T12:47:00+05:30</updated>
+  <updated>2014-01-25T12:48:32+05:30</updated>
   <id>http://bijumon.github.io/oct2/</id>
   <author>
     <name><![CDATA[bijumon]]></name>
@@ -56,9 +56,12 @@
 </span><span class="line">mathjax: <span class="nb">true</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p><em>Note:</em>
-* <code>maruku</code> supports mathjax but is not tested
-* <code>rdiscount</code> and <code>redcarpet</code> has problems with mathjax rendering</p>
+<p><em>Note:</em></p>
+
+<ul>
+  <li><code>maruku</code> supports mathjax but is not tested</li>
+  <li><code>rdiscount</code> and <code>redcarpet</code> has problems with mathjax rendering</li>
+</ul>
 ]]></content>
   </entry>
   
