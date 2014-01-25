@@ -4,7 +4,7 @@
   <title><![CDATA[Oct2]]></title>
   <link href="http://bijumon.github.io/oct2/atom.xml" rel="self"/>
   <link href="http://bijumon.github.io/oct2/"/>
-  <updated>2014-01-25T12:02:20+05:30</updated>
+  <updated>2014-01-25T12:08:06+05:30</updated>
   <id>http://bijumon.github.io/oct2/</id>
   <author>
     <name><![CDATA[bijumon]]></name>
@@ -18,7 +18,7 @@
     <link href="http://bijumon.github.io/oct2/blog/2013/12/14/oct2-theme/"/>
     <updated>2013-12-14T15:00:00+05:30</updated>
     <id>http://bijumon.github.io/oct2/blog/2013/12/14/oct2-theme</id>
-    <content type="html"><![CDATA[<p><a href="https://github.com/bijumon/oct2">Oct2</a> is a mod of the ‘classic’ theme for <a href="http://octopress.org/">Octopress</a>, the blogging framework for hackers based on <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+    <content type="html"><![CDATA[<p><a href="https://github.com/bijumon/oct2">Oct2</a> is a mod of the ‘classic’ theme for <a href="http://octopress.org/">Octopress</a>.</p>
 
 <h3 id="enable-mathjax">Enable Mathjax</h3>
 <p>Rendering Latex math equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
