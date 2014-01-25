@@ -15,8 +15,10 @@ mathjax: true
 
 ```
 $ git clone https://github.com/bijumon/oct2.git .themes/
-$ rake install["oct2"] 
+$ rake install["oct2"]
 ```
 
 ![Oct2 screenshot](https://raw.github.com/bijumon/oct2/master/source/images/oct2.png)
 
+[octopress](http://octopress.org/) was created by [Brandon Mathis](http://brandonmathis.com/), [@imathis](https://twitter.com/imathis).
+[octopress logo](http://octopress.org/) was created by [david lanham](http://dlanham.com ), [@dlanham](https://twitter.com/dlanham).
