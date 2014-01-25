@@ -4,7 +4,7 @@
   <title><![CDATA[Oct2]]></title>
   <link href="http://bijumon.github.io/oct2/atom.xml" rel="self"/>
   <link href="http://bijumon.github.io/oct2/"/>
-  <updated>2014-01-25T12:45:29+05:30</updated>
+  <updated>2014-01-25T12:47:00+05:30</updated>
   <id>http://bijumon.github.io/oct2/</id>
   <author>
     <name><![CDATA[bijumon]]></name>
@@ -20,9 +20,7 @@
     <id>http://bijumon.github.io/oct2/blog/2013/12/14/oct2-theme</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/bijumon/oct2">Oct2</a> is an <a href="http://octopress.org/">Octopress</a> ‘classic’ theme mod.</p>
 
-<ul>
-  <li>Install <a href="http://octopress.org/">Octopress</a></li>
-</ul>
+<p>Install <a href="http://octopress.org/">Octopress</a></p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
@@ -30,29 +28,23 @@
 </span><span class="line"><span class="nv">$ </span>bundle install --path<span class="o">=</span>vendor/bundle <span class="c">#path is optional</span>
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<ul>
-  <li>clone oct2 into .themes</li>
-</ul>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="sh"><span class="line"><span class="nv">$ </span>git clone https://github.com/bijumon/oct2.git .themes/
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<ul>
-  <li>Install Oct2 and generate the website</li>
-</ul>
+<p>Install Oct2 and generate the website</p>
 
 <div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class="sh"><span class="line"><span class="nv">$ </span>bundle <span class="nb">exec </span>rake install<span class="o">[</span>oct2<span class="o">]</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class="sh"><span class="line"><span class="nv">$ </span>git clone https://github.com/bijumon/oct2.git .themes/
+</span><span class="line"><span class="nv">$ </span>bundle <span class="nb">exec </span>rake install<span class="o">[</span>oct2<span class="o">]</span>
 </span><span class="line"><span class="nv">$ </span>bundle <span class="nb">exec </span>rake generate
 </span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p><strong>About page</strong>
-Oct2 includes an empty ‘about’ page at <code>source/about/index.markdown</code>.</p>
+<p><strong>About page</strong></p>
 
-<p><strong>Enable Mathjax</strong>
-Rendering Latex equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
+<p>Oct2 includes an empty ‘about’ page at <code>source/about/index.markdown</code>.</p>
+
+<p><strong>Enable Mathjax</strong></p>
+
+<p>Rendering Latex equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
 
 <p><strong>_config.yml</strong></p>
 
