@@ -187,6 +187,7 @@ p, li {
 }
 
 .highlight, .gist-highlight {
+  @include border-radius(5px);
   pre { background: none; @include border-radius(none); border: none; padding: 0; margin-bottom: 0; }
   margin-bottom: 1.8em;
   background: $base03;
