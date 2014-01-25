@@ -4,7 +4,7 @@
   <title><![CDATA[Oct2]]></title>
   <link href="http://bijumon.github.io/oct2/atom.xml" rel="self"/>
   <link href="http://bijumon.github.io/oct2/"/>
-  <updated>2014-01-25T12:26:37+05:30</updated>
+  <updated>2014-01-25T12:33:40+05:30</updated>
   <id>http://bijumon.github.io/oct2/</id>
   <author>
     <name><![CDATA[bijumon]]></name>
@@ -20,8 +20,38 @@
     <id>http://bijumon.github.io/oct2/blog/2013/12/14/oct2-theme</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/bijumon/oct2">Oct2</a> is a mod of the ‘classic’ theme for <a href="http://octopress.org/">Octopress</a>.</p>
 
+<h3 id="installing">Installing</h3>
+
+<ul>
+  <li>Install <a href="http://octopress.org/">Octopress</a></li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ git clone https://github.com/imathis/octopress.git
+</span><span class="line">$ bundle install --path=vendor/bundle #path is optional</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<ul>
+  <li>clone oct2 into .themes</li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ git clone https://github.com/bijumon/oct2.git .themes/</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<ul>
+  <li>Install Oct2 and generate the website</li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ bundle exec rake install[oct2]
+</span><span class="line">$ bundle exec rake generate</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h3 id="about-page">About page</h3>
+<p>Oct2 includes an empty ‘about’ page at <code>source/about/index.markdown</code>.</p>
+
 <h3 id="enable-mathjax">Enable Mathjax</h3>
-<p>Rendering Latex math equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
+<p>Rendering Latex equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
 
 <p><strong>_config.yml</strong></p>
 
@@ -32,7 +62,7 @@
 </span><span class="line">markdown: kramdown
 </span><span class="line">mathjax: true</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<h4 id="note">Note:</h4>
+<h5 id="note">Note:</h5>
 <ul>
   <li><code>maruku</code> supports mathjax but is not tested</li>
   <li><code>rdiscount</code> and <code>redcarpet</code> has problems with mathjax rendering</li>

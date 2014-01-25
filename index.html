@@ -9,8 +9,10 @@
   <meta name="author" content="bijumon">
 
   
-  <meta name="description" content="Oct2 is a mod of the ‘classic’ theme for Octopress. Enable Mathjax
-Rendering Latex math equations requires using kramdown instead of rdiscount as the &hellip;">
+  <meta name="description" content="Oct2 is a mod of the ‘classic’ theme for Octopress. Installing Install Octopress 1
+2
+$ git clone https://github.com/imathis/octopress.git
+$ bundle &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -133,8 +135,38 @@ Rendering Latex math equations requires using kramdown instead of rdiscount as t
 
   <div class="entry-content"><p><a href="https://github.com/bijumon/oct2">Oct2</a> is a mod of the ‘classic’ theme for <a href="http://octopress.org/">Octopress</a>.</p>
 
+<h3 id="installing">Installing</h3>
+
+<ul>
+  <li>Install <a href="http://octopress.org/">Octopress</a></li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ git clone https://github.com/imathis/octopress.git
+</span><span class="line">$ bundle install --path=vendor/bundle #path is optional</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<ul>
+  <li>clone oct2 into .themes</li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ git clone https://github.com/bijumon/oct2.git .themes/</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<ul>
+  <li>Install Oct2 and generate the website</li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">$ bundle exec rake install[oct2]
+</span><span class="line">$ bundle exec rake generate</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<h3 id="about-page">About page</h3>
+<p>Oct2 includes an empty ‘about’ page at <code>source/about/index.markdown</code>.</p>
+
 <h3 id="enable-mathjax">Enable Mathjax</h3>
-<p>Rendering Latex math equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
+<p>Rendering Latex equations requires using <code>kramdown</code> instead of <code>rdiscount</code> as the markdown processor.</p>
 
 <p><strong>_config.yml</strong></p>
 
@@ -145,7 +177,7 @@ Rendering Latex math equations requires using kramdown instead of rdiscount as t
 </span><span class="line">markdown: kramdown
 </span><span class="line">mathjax: true</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<h4 id="note">Note:</h4>
+<h5 id="note">Note:</h5>
 <ul>
   <li><code>maruku</code> supports mathjax but is not tested</li>
   <li><code>rdiscount</code> and <code>redcarpet</code> has problems with mathjax rendering</li>
