@@ -18,6 +18,15 @@ $ git clone https://github.com/bijumon/oct2.git .themes/
 $ rake install["oct2"]
 ```
 
+*Changing the logo*
+
+set 'logo' in _config.yml to an image in 'source/images' and style it using '#logo' in `sass/custom/_styles.scss`
+
+```
+# _config.yml
+logo: portrait.png
+```
+
 ![Oct2 screenshot](https://raw.github.com/bijumon/oct2/master/source/images/oct2.png)
 
 [octopress](http://octopress.org/) was created by [Brandon Mathis](http://brandonmathis.com/) aka [@imathis](https://twitter.com/imathis).
